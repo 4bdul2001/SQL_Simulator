@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class BackEnd {
 	final String URL = "jdbc:mysql://127.0.0.1/insertSimulator";
 	final String user = "root";
-	final String password = "Ga236922$";  // can't expose my password, sorry
+	final String password = "";  // can't expose my password, sorry
 	private Connection connection;
 	private boolean eventAdded;
 	private HashMap<String, Integer> eventsNameToId = new HashMap<String, Integer>();
